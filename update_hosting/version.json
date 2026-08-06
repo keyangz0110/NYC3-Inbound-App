@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "2.4.0",
-  "apkUrl": "https://YOUR_SERVER/nyc3-inbound/NYC3-Inbound-2.4.0.apk",
-  "releaseNotes": "Optional release notes shown when an update is available."
+  "versionCode": 13,
+  "versionName": "2.3.2",
+  "apkUrl": "https://github.com/keyangz0110/NYC3-Inbound-App/releases/download/v2.3.2/NYC3-Inbound-App-v2.3.2.apk",
+  "releaseNotes": "NYC3 Inbound 2.3.2"
 }
