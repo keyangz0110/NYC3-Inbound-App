@@ -2,8 +2,8 @@
 
 ## Current release
 
-- APK: https://github.com/keyangz0110/NYC3-Inbound-App/releases/download/v2.3.2/NYC3-Inbound-App-v2.3.2.apk
-- Manifest (stable URL for the app): https://raw.githubusercontent.com/keyangz0110/NYC3-Inbound-App/main/update_hosting/version.json
+- APK: [link to APK file](https://github.com/keyangz0110/NYC3-Inbound-App/releases/download/v2.3.2/NYC3-Inbound-App-v2.3.2.apk)
+- Manifest (stable URL for the app): [link to Manifest](https://raw.githubusercontent.com/keyangz0110/NYC3-Inbound-App/main/update_hosting/version.json)
 
 ## When you ship a new version
 
