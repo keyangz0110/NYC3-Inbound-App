@@ -1,0 +1,163 @@
+{
+  "@@locale": "zh",
+  "appTitle": "分拣",
+  "sortTab": "分拣",
+  "manageTab": "管理",
+  "scanBoxCartonBarcode": "扫描箱唛条码",
+  "scanProductBarcode": "扫描产品条码",
+  "readyToScan": "准备扫描...",
+  "slotLabel": "槽位",
+  "quantityLabel": "数量",
+  "displayQuantityOnSortScreen": "在分拣界面显示数量",
+  "totalQuantityLabel": "总数量",
+  "cartonTotalQuantity": "总数量：{count}",
+  "productBarcodeLabel": "产品条码",
+  "newSlotAssigned": "已分配新槽位",
+  "existingSlot": "已有槽位",
+  "cartonOpened": "箱子已打开",
+  "invalidIbrBarcode": "条码必须以 IBR 开头",
+  "activeCartonExists": "请先完成或清除当前箱子",
+  "noActiveCarton": "没有活动箱子",
+  "closeSlot": "关闭槽位",
+  "finishSorting": "完成分拣",
+  "closeSlotTitle": "关闭槽位？",
+  "closeSlotContent": "关闭槽位 {slot}？下次扫描此产品将打开新槽位。",
+  "finishSortingTitle": "完成分拣？",
+  "finishSortingContent": "将箱子 {ibr} 标记为已完成？",
+  "errorMessage": "错误：{error}",
+  "searchCartons": "搜索 IBR 编号",
+  "searchSlots": "条码或槽位号",
+  "noCartonsYet": "暂无箱子",
+  "noSearchResults": "无匹配结果",
+  "clearSearch": "清除搜索",
+  "activeCarton": "进行中",
+  "finishedCarton": "已完成",
+  "reopenCarton": "重新打开箱子",
+  "deleteCarton": "删除箱子",
+  "reopenCartonTitle": "重新打开箱子？",
+  "reopenCartonContent": "重新打开箱子 {ibr} 进行分拣？",
+  "deleteCartonTitle": "删除箱子？",
+  "deleteCartonContent": "删除箱子 {ibr} 及其所有槽位？",
+  "slotClosedLabel": "已关闭",
+  "undoProduct": "撤销",
+  "deleteProduct": "删除",
+  "undoProductTitle": "撤销上次扫描？",
+  "undoProductContent": "将槽位 {slot} 的数量减 1？",
+  "deleteProductTitle": "删除产品？",
+  "deleteProductContent": "从槽位 {slot} 移除产品并释放槽位号？",
+  "cancel": "取消",
+  "delete": "删除",
+  "confirm": "确认",
+  "clearAllHistoryTitle": "清除所有记录？",
+  "clearAllHistoryContent": "这将把所有箱子归档到历史记录并清除屏幕。归档数据可在设置中导出。",
+  "clearAll": "全部清空",
+  "settings": "设置",
+  "advanced": "高级",
+  "exportHistory": "导出历史",
+  "exportHistorySuccess": "已导出到 {path}",
+  "exportHistoryEmpty": "没有可导出的历史记录。请先在管理中点击全部清空。",
+  "exportHistoryFailed": "导出失败：{error}",
+  "theme": "主题",
+  "themeSystem": "跟随系统",
+  "themeLight": "浅色",
+  "themeDark": "深色",
+  "about": "关于",
+  "versionLabel": "版本",
+  "authorLabel": "作者",
+  "language": "语言",
+  "languageEnUs": "English (US)",
+  "languageEs419": "Español (Latinoamérica)",
+  "languageZhCn": "中文（简体）",
+  "languageIdId": "Bahasa Indonesia",
+  "languageFrFr": "Français (France)",
+  "printer": "打印机",
+  "printerSettings": "打印机设置",
+  "discoverPrinters": "搜索打印机",
+  "discoverBluetoothPrinters": "搜索蓝牙打印机",
+  "discoverWifiPrinters": "搜索 Wi-Fi 打印机",
+  "discoveringPrinters": "正在搜索打印机...",
+  "noPrinterConfigured": "未配置打印机",
+  "selectPrinter": "选择打印机",
+  "connectionType": "连接方式",
+  "connectionBluetooth": "蓝牙",
+  "connectionWifi": "Wi-Fi",
+  "enterPrinterIp": "输入打印机 IP 地址",
+  "enterPrinterIpHint": "搜索失败时使用。PDA 与打印机须在同一 Wi-Fi 网络。",
+  "printerIpHint": "192.168.1.50",
+  "savePrinterIp": "保存",
+  "invalidPrinterIp": "请输入有效的 IPv4 地址（例如 192.168.1.50）",
+  "testPrint": "测试打印",
+  "printLabels": "打印标签",
+  "printingLabels": "正在打印标签...",
+  "printProgress": "正在打印 {current}/{total}",
+  "@printProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "printSuccess": "已打印 {count} 张标签",
+  "@printSuccess": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "printFailed": "打印失败：{error}",
+  "@printFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "printFailedRetryHint": "请使用管理 → 打印重试",
+  "noSlotsToPrint": "没有可打印的槽位",
+  "printerNotReady": "打印机未就绪",
+  "bluetoothPermissionRequired": "打印需要蓝牙权限",
+  "cartonBarcodeLabel": "纸箱条码",
+  "printerSetupHelp": "请使用 Zebra Printer Setup 应用配置 ZQ521。蓝牙打印请使用 Bluetooth Classic；或将打印机加入 Wi-Fi，使用“搜索 Wi-Fi”或输入其 IP 地址。",
+  "printerSaved": "已保存打印机：{name}",
+  "@printerSaved": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "noPrintersFound": "未找到打印机",
+  "checkForUpdate": "检查更新",
+  "checkForUpdateSubtitle": "从更新服务器下载最新 APK",
+  "updateUpToDate": "已是最新版本",
+  "updateUrlNotConfigured": "请先在高级设置中配置更新服务器 URL",
+  "updateCheckFailed": "检查更新失败：{error}",
+  "@updateCheckFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateAvailableTitle": "有可用更新",
+  "updateAvailableContent": "当前：{currentVersion}\n新版本：{newVersion}",
+  "@updateAvailableContent": {
+    "placeholders": {
+      "currentVersion": { "type": "String" },
+      "newVersion": { "type": "String" }
+    }
+  },
+  "downloadAndInstall": "下载并安装",
+  "updateDownloading": "正在下载更新...",
+  "updateDownloadProgress": "下载中… {percent}%",
+  "@updateDownloadProgress": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "updateInstallPrompt": "正在打开安装程序。如有提示请允许安装。",
+  "updateInstallFailed": "安装失败：{error}",
+  "@updateInstallFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateServerUrl": "更新服务器 URL",
+  "updateServerUrlHint": "与发布 APK 一同托管的 version.json 的 HTTPS 地址。",
+  "updateServerUrlExample": "https://example.com/nyc3-inbound/version.json",
+  "saveUpdateUrl": "保存 URL",
+  "updateUrlSaved": "更新服务器 URL 已保存",
+  "invalidUpdateUrl": "请输入有效的 HTTPS URL"
+}

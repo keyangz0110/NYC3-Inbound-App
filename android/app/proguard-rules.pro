@@ -1,0 +1,4 @@
+-dontwarn org.apache.http.entity.mime.HttpMultipartMode
+-dontwarn org.apache.http.entity.mime.MultipartEntityBuilder
+-dontwarn org.apache.http.entity.mime.content.ContentBody
+-dontwarn org.apache.http.entity.mime.content.InputStreamBody

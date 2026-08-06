@@ -1,0 +1,163 @@
+{
+  "@@locale": "id",
+  "appTitle": "Sortir",
+  "sortTab": "Sortir",
+  "manageTab": "Kelola",
+  "scanBoxCartonBarcode": "Pindai barcode karton",
+  "scanProductBarcode": "Pindai barcode produk",
+  "readyToScan": "Siap memindai...",
+  "slotLabel": "Slot",
+  "quantityLabel": "Jumlah",
+  "displayQuantityOnSortScreen": "Tampilkan jumlah di layar Sortir",
+  "totalQuantityLabel": "Jumlah total",
+  "cartonTotalQuantity": "Jumlah total: {count}",
+  "productBarcodeLabel": "Barcode produk",
+  "newSlotAssigned": "Slot baru ditetapkan",
+  "existingSlot": "Slot sudah ada",
+  "cartonOpened": "Karton dibuka",
+  "invalidIbrBarcode": "Barcode harus diawali IBR",
+  "activeCartonExists": "Selesaikan atau hapus karton saat ini terlebih dahulu",
+  "noActiveCarton": "Tidak ada karton aktif",
+  "closeSlot": "Tutup slot",
+  "finishSorting": "Selesai sortir",
+  "closeSlotTitle": "Tutup slot?",
+  "closeSlotContent": "Tutup slot {slot}? Pemindaian produk berikutnya akan membuka slot baru.",
+  "finishSortingTitle": "Selesai sortir?",
+  "finishSortingContent": "Tandai karton {ibr} sebagai selesai?",
+  "errorMessage": "Kesalahan: {error}",
+  "searchCartons": "Cari nomor IBR",
+  "searchSlots": "Barcode atau nomor slot",
+  "noCartonsYet": "Belum ada karton",
+  "noSearchResults": "Tidak ada hasil",
+  "clearSearch": "Hapus pencarian",
+  "activeCarton": "Aktif",
+  "finishedCarton": "Selesai",
+  "reopenCarton": "Buka kembali karton",
+  "deleteCarton": "Hapus karton",
+  "reopenCartonTitle": "Buka kembali karton?",
+  "reopenCartonContent": "Buka kembali karton {ibr} untuk sortir?",
+  "deleteCartonTitle": "Hapus karton?",
+  "deleteCartonContent": "Hapus karton {ibr} dan semua slotnya?",
+  "slotClosedLabel": "Ditutup",
+  "undoProduct": "Urungkan",
+  "deleteProduct": "Hapus",
+  "undoProductTitle": "Urungkan pemindaian terakhir?",
+  "undoProductContent": "Kurangi jumlah slot {slot} sebanyak 1?",
+  "deleteProductTitle": "Hapus produk?",
+  "deleteProductContent": "Hapus produk dari slot {slot} dan lepaskan nomor slot?",
+  "cancel": "Batal",
+  "delete": "Hapus",
+  "confirm": "Konfirmasi",
+  "clearAllHistoryTitle": "Hapus semua catatan?",
+  "clearAllHistoryContent": "Ini mengarsipkan semua karton ke riwayat dan membersihkan layar. Data arsip dapat diekspor dari Pengaturan.",
+  "clearAll": "Hapus Semua",
+  "settings": "Pengaturan",
+  "advanced": "Lanjutan",
+  "exportHistory": "Ekspor riwayat",
+  "exportHistorySuccess": "Diekspor ke {path}",
+  "exportHistoryEmpty": "Tidak ada riwayat untuk diekspor. Gunakan Hapus Semua di Kelola terlebih dahulu.",
+  "exportHistoryFailed": "Ekspor gagal: {error}",
+  "theme": "Tema",
+  "themeSystem": "Default sistem",
+  "themeLight": "Terang",
+  "themeDark": "Gelap",
+  "about": "Tentang",
+  "versionLabel": "Versi",
+  "authorLabel": "Penulis",
+  "language": "Bahasa",
+  "languageEnUs": "English (US)",
+  "languageEs419": "Español (Latinoamérica)",
+  "languageZhCn": "中文（简体）",
+  "languageIdId": "Bahasa Indonesia",
+  "languageFrFr": "Français (France)",
+  "printer": "Printer",
+  "printerSettings": "Pengaturan Printer",
+  "discoverPrinters": "Cari Printer",
+  "discoverBluetoothPrinters": "Cari Printer Bluetooth",
+  "discoverWifiPrinters": "Cari Printer Wi-Fi",
+  "discoveringPrinters": "Mencari printer...",
+  "noPrinterConfigured": "Printer belum dikonfigurasi",
+  "selectPrinter": "Pilih printer",
+  "connectionType": "Jenis koneksi",
+  "connectionBluetooth": "Bluetooth",
+  "connectionWifi": "Wi-Fi",
+  "enterPrinterIp": "Masukkan alamat IP printer",
+  "enterPrinterIpHint": "Gunakan jika pencarian gagal. PDA dan printer harus di jaringan Wi-Fi yang sama.",
+  "printerIpHint": "192.168.1.50",
+  "savePrinterIp": "Simpan",
+  "invalidPrinterIp": "Masukkan alamat IPv4 yang valid (mis. 192.168.1.50)",
+  "testPrint": "Cetak Uji",
+  "printLabels": "Cetak Label",
+  "printingLabels": "Mencetak label...",
+  "printProgress": "Mencetak {current} dari {total}",
+  "@printProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "printSuccess": "Berhasil mencetak {count} label",
+  "@printSuccess": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "printFailed": "Cetak gagal: {error}",
+  "@printFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "printFailedRetryHint": "Gunakan Kelola → Cetak untuk mencoba lagi",
+  "noSlotsToPrint": "Tidak ada slot untuk dicetak",
+  "printerNotReady": "Printer belum siap",
+  "bluetoothPermissionRequired": "Izin Bluetooth diperlukan untuk mencetak",
+  "cartonBarcodeLabel": "Barcode Karton",
+  "printerSetupHelp": "Konfigurasikan ZQ521 dengan aplikasi Zebra Printer Setup. Gunakan Bluetooth Classic untuk Bluetooth, atau hubungkan printer ke Wi-Fi lalu gunakan Cari Wi-Fi atau masukkan alamat IP-nya.",
+  "printerSaved": "Printer disimpan: {name}",
+  "@printerSaved": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "noPrintersFound": "Tidak ada printer ditemukan",
+  "checkForUpdate": "Periksa Pembaruan",
+  "checkForUpdateSubtitle": "Unduh APK terbaru dari server pembaruan",
+  "updateUpToDate": "Anda sudah memakai versi terbaru",
+  "updateUrlNotConfigured": "Atur URL server pembaruan di Advanced terlebih dahulu",
+  "updateCheckFailed": "Gagal memeriksa pembaruan: {error}",
+  "@updateCheckFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateAvailableTitle": "Pembaruan tersedia",
+  "updateAvailableContent": "Saat ini: {currentVersion}\nBaru: {newVersion}",
+  "@updateAvailableContent": {
+    "placeholders": {
+      "currentVersion": { "type": "String" },
+      "newVersion": { "type": "String" }
+    }
+  },
+  "downloadAndInstall": "Unduh & Instal",
+  "updateDownloading": "Mengunduh pembaruan...",
+  "updateDownloadProgress": "Mengunduh… {percent}%",
+  "@updateDownloadProgress": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "updateInstallPrompt": "Membuka penginstal. Izinkan instal jika diminta.",
+  "updateInstallFailed": "Instal gagal: {error}",
+  "@updateInstallFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateServerUrl": "URL server pembaruan",
+  "updateServerUrlHint": "URL HTTPS version.json yang dihosting bersama APK rilis.",
+  "updateServerUrlExample": "https://example.com/nyc3-inbound/version.json",
+  "saveUpdateUrl": "Simpan URL",
+  "updateUrlSaved": "URL server pembaruan disimpan",
+  "invalidUpdateUrl": "Masukkan URL HTTPS yang valid"
+}

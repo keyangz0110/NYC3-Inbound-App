@@ -1,0 +1,233 @@
+{
+  "@@locale": "en",
+  "appTitle": "Sorting",
+  "sortTab": "Sort",
+  "manageTab": "Manage",
+  "scanBoxCartonBarcode": "Scan Box Carton Barcode",
+  "scanProductBarcode": "Scan Product Barcode",
+  "readyToScan": "Ready to scan...",
+  "slotLabel": "Slot",
+  "quantityLabel": "Quantity",
+  "displayQuantityOnSortScreen": "Display Quantity on Sort Screen",
+  "totalQuantityLabel": "Total Quantity",
+  "cartonTotalQuantity": "Total quantity: {count}",
+  "@cartonTotalQuantity": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "productBarcodeLabel": "Product Barcode",
+  "newSlotAssigned": "New slot assigned",
+  "existingSlot": "Existing slot",
+  "cartonOpened": "Carton opened",
+  "invalidIbrBarcode": "Barcode must start with IBR",
+  "activeCartonExists": "Finish or clear the current carton first",
+  "noActiveCarton": "No active carton",
+  "closeSlot": "Close Slot",
+  "finishSorting": "Finish Sorting",
+  "closeSlotTitle": "Close slot?",
+  "closeSlotContent": "Close slot {slot}? The next scan of this product will open a new slot.",
+  "@closeSlotContent": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "finishSortingTitle": "Finish sorting?",
+  "finishSortingContent": "Mark carton {ibr} as finished?",
+  "@finishSortingContent": {
+    "placeholders": {
+      "ibr": {
+        "type": "String"
+      }
+    }
+  },
+  "errorMessage": "Error: {error}",
+  "@errorMessage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "searchCartons": "Search IBR number",
+  "searchSlots": "Barcode or slot number",
+  "noCartonsYet": "No cartons yet",
+  "noSearchResults": "No matching entries",
+  "clearSearch": "Clear search",
+  "activeCarton": "Active",
+  "finishedCarton": "Finished",
+  "reopenCarton": "Reopen Carton",
+  "deleteCarton": "Delete Carton",
+  "reopenCartonTitle": "Reopen carton?",
+  "reopenCartonContent": "Reopen carton {ibr} for sorting?",
+  "@reopenCartonContent": {
+    "placeholders": {
+      "ibr": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCartonTitle": "Delete carton?",
+  "deleteCartonContent": "Delete carton {ibr} and all its slots?",
+  "@deleteCartonContent": {
+    "placeholders": {
+      "ibr": {
+        "type": "String"
+      }
+    }
+  },
+  "slotClosedLabel": "Closed",
+  "undoProduct": "Undo",
+  "deleteProduct": "Delete",
+  "undoProductTitle": "Undo last scan?",
+  "undoProductContent": "Decrease quantity for slot {slot} by 1?",
+  "@undoProductContent": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteProductTitle": "Delete product?",
+  "deleteProductContent": "Remove product from slot {slot} and release the slot number?",
+  "@deleteProductContent": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "confirm": "Confirm",
+  "clearAllHistoryTitle": "Clear all records?",
+  "clearAllHistoryContent": "This archives all cartons to history and clears the screen. Archived data can be exported from Settings.",
+  "clearAll": "Clear All",
+  "settings": "Settings",
+  "advanced": "Advanced",
+  "exportHistory": "Export History",
+  "exportHistorySuccess": "Exported to {path}",
+  "@exportHistorySuccess": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "exportHistoryEmpty": "No history to export. Use Clear All on Manage first.",
+  "exportHistoryFailed": "Export failed: {error}",
+  "@exportHistoryFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "theme": "Theme",
+  "themeSystem": "System default",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "about": "About",
+  "versionLabel": "Version",
+  "authorLabel": "Author",
+  "language": "Language",
+  "languageEnUs": "English (US)",
+  "languageEs419": "Español (Latinoamérica)",
+  "languageZhCn": "中文（简体）",
+  "languageIdId": "Bahasa Indonesia",
+  "languageFrFr": "Français (France)",
+  "printer": "Printer",
+  "printerSettings": "Printer Settings",
+  "discoverPrinters": "Discover Printers",
+  "discoverBluetoothPrinters": "Discover Bluetooth Printers",
+  "discoverWifiPrinters": "Discover Wi-Fi Printers",
+  "discoveringPrinters": "Discovering printers...",
+  "noPrinterConfigured": "No printer configured",
+  "selectPrinter": "Select a printer",
+  "connectionType": "Connection type",
+  "connectionBluetooth": "Bluetooth",
+  "connectionWifi": "Wi-Fi",
+  "enterPrinterIp": "Enter printer IP address",
+  "enterPrinterIpHint": "Use when discovery fails. PDA and printer must be on the same Wi-Fi network.",
+  "printerIpHint": "192.168.1.50",
+  "savePrinterIp": "Save",
+  "invalidPrinterIp": "Enter a valid IPv4 address (e.g. 192.168.1.50)",
+  "testPrint": "Test Print",
+  "printLabels": "Print Labels",
+  "printingLabels": "Printing labels...",
+  "printProgress": "Printing {current} of {total}",
+  "@printProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "printSuccess": "Printed {count} labels",
+  "@printSuccess": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "printFailed": "Print failed: {error}",
+  "@printFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "printFailedRetryHint": "Use Manage → Print to try again",
+  "noSlotsToPrint": "No slots to print",
+  "printerNotReady": "Printer is not ready",
+  "bluetoothPermissionRequired": "Bluetooth permissions are required for printing",
+  "cartonBarcodeLabel": "Carton Barcode",
+  "printerSetupHelp": "Configure your ZQ521 with the Zebra Printer Setup app. Use Bluetooth Classic for Bluetooth printing, or join the printer to your Wi-Fi network and use Discover Wi-Fi or enter its IP address.",
+  "printerSaved": "Printer saved: {name}",
+  "@printerSaved": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "noPrintersFound": "No printers found",
+  "checkForUpdate": "Check for Update",
+  "checkForUpdateSubtitle": "Download the latest APK from your update server",
+  "updateUpToDate": "You are on the latest version",
+  "updateUrlNotConfigured": "Set the update server URL in Advanced settings first",
+  "updateCheckFailed": "Update check failed: {error}",
+  "@updateCheckFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateAvailableTitle": "Update available",
+  "updateAvailableContent": "Current: {currentVersion}\nNew: {newVersion}",
+  "@updateAvailableContent": {
+    "placeholders": {
+      "currentVersion": { "type": "String" },
+      "newVersion": { "type": "String" }
+    }
+  },
+  "downloadAndInstall": "Download & Install",
+  "updateDownloading": "Downloading update...",
+  "updateDownloadProgress": "Downloading… {percent}%",
+  "@updateDownloadProgress": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "updateInstallPrompt": "Opening installer. Allow install if prompted.",
+  "updateInstallFailed": "Install failed: {error}",
+  "@updateInstallFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateServerUrl": "Update server URL",
+  "updateServerUrlHint": "HTTPS URL of version.json hosted with your release APK.",
+  "updateServerUrlExample": "https://example.com/nyc3-inbound/version.json",
+  "saveUpdateUrl": "Save URL",
+  "updateUrlSaved": "Update server URL saved",
+  "invalidUpdateUrl": "Enter a valid HTTPS URL"
+}

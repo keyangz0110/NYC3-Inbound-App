@@ -1,0 +1,163 @@
+{
+  "@@locale": "fr_FR",
+  "appTitle": "Tri",
+  "sortTab": "Trier",
+  "manageTab": "Gérer",
+  "scanBoxCartonBarcode": "Scanner le code carton",
+  "scanProductBarcode": "Scanner le code produit",
+  "readyToScan": "Prêt à scanner...",
+  "slotLabel": "Emplacement",
+  "quantityLabel": "Quantité",
+  "displayQuantityOnSortScreen": "Afficher la quantité sur l'écran Trier",
+  "totalQuantityLabel": "Quantité totale",
+  "cartonTotalQuantity": "Quantité totale : {count}",
+  "productBarcodeLabel": "Code produit",
+  "newSlotAssigned": "Nouvel emplacement attribué",
+  "existingSlot": "Emplacement existant",
+  "cartonOpened": "Carton ouvert",
+  "invalidIbrBarcode": "Le code doit commencer par IBR",
+  "activeCartonExists": "Terminez ou effacez le carton actuel d'abord",
+  "noActiveCarton": "Aucun carton actif",
+  "closeSlot": "Fermer l'emplacement",
+  "finishSorting": "Terminer le tri",
+  "closeSlotTitle": "Fermer l'emplacement ?",
+  "closeSlotContent": "Fermer l'emplacement {slot} ? Le prochain scan de ce produit ouvrira un nouvel emplacement.",
+  "finishSortingTitle": "Terminer le tri ?",
+  "finishSortingContent": "Marquer le carton {ibr} comme terminé ?",
+  "errorMessage": "Erreur : {error}",
+  "searchCartons": "Rechercher numéro IBR",
+  "searchSlots": "Code ou numéro d'emplacement",
+  "noCartonsYet": "Aucun carton pour l'instant",
+  "noSearchResults": "Aucun résultat",
+  "clearSearch": "Effacer la recherche",
+  "activeCarton": "Actif",
+  "finishedCarton": "Terminé",
+  "reopenCarton": "Rouvrir le carton",
+  "deleteCarton": "Supprimer le carton",
+  "reopenCartonTitle": "Rouvrir le carton ?",
+  "reopenCartonContent": "Rouvrir le carton {ibr} pour le tri ?",
+  "deleteCartonTitle": "Supprimer le carton ?",
+  "deleteCartonContent": "Supprimer le carton {ibr} et tous ses emplacements ?",
+  "slotClosedLabel": "Fermé",
+  "undoProduct": "Annuler",
+  "deleteProduct": "Supprimer",
+  "undoProductTitle": "Annuler le dernier scan ?",
+  "undoProductContent": "Réduire la quantité de l'emplacement {slot} de 1 ?",
+  "deleteProductTitle": "Supprimer le produit ?",
+  "deleteProductContent": "Retirer le produit de l'emplacement {slot} et libérer le numéro ?",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "confirm": "Confirmer",
+  "clearAllHistoryTitle": "Effacer tous les enregistrements ?",
+  "clearAllHistoryContent": "Cela archive tous les cartons dans l'historique et efface l'écran. Les données archivées peuvent être exportées depuis les paramètres.",
+  "clearAll": "Tout effacer",
+  "settings": "Paramètres",
+  "advanced": "Avancé",
+  "exportHistory": "Exporter l'historique",
+  "exportHistorySuccess": "Exporté vers {path}",
+  "exportHistoryEmpty": "Aucun historique à exporter. Utilisez Tout effacer dans Gérer d'abord.",
+  "exportHistoryFailed": "Échec de l'export : {error}",
+  "theme": "Thème",
+  "themeSystem": "Par défaut du système",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "about": "À propos",
+  "versionLabel": "Version",
+  "authorLabel": "Auteur",
+  "language": "Langue",
+  "languageEnUs": "English (US)",
+  "languageEs419": "Español (Latinoamérica)",
+  "languageZhCn": "中文（简体）",
+  "languageIdId": "Bahasa Indonesia",
+  "languageFrFr": "Français (France)",
+  "printer": "Imprimante",
+  "printerSettings": "Paramètres de l'imprimante",
+  "discoverPrinters": "Rechercher des imprimantes",
+  "discoverBluetoothPrinters": "Rechercher des imprimantes Bluetooth",
+  "discoverWifiPrinters": "Rechercher des imprimantes Wi-Fi",
+  "discoveringPrinters": "Recherche d'imprimantes...",
+  "noPrinterConfigured": "Aucune imprimante configurée",
+  "selectPrinter": "Sélectionner une imprimante",
+  "connectionType": "Type de connexion",
+  "connectionBluetooth": "Bluetooth",
+  "connectionWifi": "Wi-Fi",
+  "enterPrinterIp": "Saisir l'adresse IP de l'imprimante",
+  "enterPrinterIpHint": "À utiliser si la recherche échoue. La PDA et l'imprimante doivent être sur le même réseau Wi-Fi.",
+  "printerIpHint": "192.168.1.50",
+  "savePrinterIp": "Enregistrer",
+  "invalidPrinterIp": "Saisissez une adresse IPv4 valide (ex. 192.168.1.50)",
+  "testPrint": "Impression test",
+  "printLabels": "Imprimer les étiquettes",
+  "printingLabels": "Impression des étiquettes...",
+  "printProgress": "Impression {current} sur {total}",
+  "@printProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "printSuccess": "{count} étiquettes imprimées",
+  "@printSuccess": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "printFailed": "Échec de l'impression : {error}",
+  "@printFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "printFailedRetryHint": "Utilisez Gérer → Imprimer pour réessayer",
+  "noSlotsToPrint": "Aucune ranure à imprimer",
+  "printerNotReady": "L'imprimante n'est pas prête",
+  "bluetoothPermissionRequired": "Les autorisations Bluetooth sont requises pour imprimer",
+  "cartonBarcodeLabel": "Code-barres du carton",
+  "printerSetupHelp": "Configurez votre ZQ521 avec l'application Zebra Printer Setup. Utilisez Bluetooth Classic pour le Bluetooth, ou connectez l'imprimante au Wi-Fi puis utilisez Rechercher Wi-Fi ou saisissez son adresse IP.",
+  "printerSaved": "Imprimante enregistrée : {name}",
+  "@printerSaved": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "noPrintersFound": "Aucune imprimante trouvée",
+  "checkForUpdate": "Rechercher une mise à jour",
+  "checkForUpdateSubtitle": "Télécharger le dernier APK depuis votre serveur",
+  "updateUpToDate": "Vous avez la dernière version",
+  "updateUrlNotConfigured": "Définissez d'abord l'URL du serveur dans Avancé",
+  "updateCheckFailed": "Échec de la vérification : {error}",
+  "@updateCheckFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateAvailableTitle": "Mise à jour disponible",
+  "updateAvailableContent": "Actuelle : {currentVersion}\nNouvelle : {newVersion}",
+  "@updateAvailableContent": {
+    "placeholders": {
+      "currentVersion": { "type": "String" },
+      "newVersion": { "type": "String" }
+    }
+  },
+  "downloadAndInstall": "Télécharger et installer",
+  "updateDownloading": "Téléchargement de la mise à jour...",
+  "updateDownloadProgress": "Téléchargement… {percent}%",
+  "@updateDownloadProgress": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "updateInstallPrompt": "Ouverture de l'installateur. Autorisez l'installation si demandé.",
+  "updateInstallFailed": "Échec de l'installation : {error}",
+  "@updateInstallFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateServerUrl": "URL du serveur de mise à jour",
+  "updateServerUrlHint": "URL HTTPS de version.json hébergé avec votre APK.",
+  "updateServerUrlExample": "https://example.com/nyc3-inbound/version.json",
+  "saveUpdateUrl": "Enregistrer l'URL",
+  "updateUrlSaved": "URL du serveur enregistrée",
+  "invalidUpdateUrl": "Saisissez une URL HTTPS valide"
+}
